@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+<title>图片多链接</title>
+<style type="text/css">
+  *{
+  	padding: 0;
+  	margin: 0;
+}
+.button{
+	position: absolute;
+    top:50%;/*出现伴随着position：absolute；*/
+    left:50%;
+    transform:translate(-50%,-50%);
+}
+table{
+	margin: 0 auto;
+	border: 1px solid red;
+}
+</style>
+</head>
+<body>
+	<div class="button">
+		<ul id="tupian">		
+<img src="https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=140420459,1788793924&fm=26&gp=0.jpg"  usemap="#guang"/>
+	    <map name="guang" id="guang">
+<area  href="http://www.baidu.com"shape="rect" target="_blank"coords="0,0,151,288"/>
+<area  href="http://www.weibo.com"shape="rect" target="_blank"coords="152,0,258,288"/>
+<area  href="https://baike.baidu.com/item/迪迦·奥特曼/13236751?fromtitle=迪迦&fromid=1690290&fr=aladdin"shape="rect" target="_blank"coords="259,0,391,288"/>
+<area  href="http://www.taobao.com"shape="rect" target="_blank"coords="392,0,541,288"/>
+</map>
+		</ul>
+	</div>
+       <table>
+       	<tr>
+       		<td>
+       			小白
+       		</td>
+       		<td>
+       			小红
+       		</td>
+       		<td>
+       			小蓝
+       		</td>
+       	</tr>
+       </table>
+
+</body>
+</html>
